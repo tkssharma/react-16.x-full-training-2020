@@ -1,0 +1,58 @@
+
+.ant-page-header {
+  color: #ffffff;
+  background: #3278b2;
+}
+.ant-page-header-title-view-sub-title {
+  color: rgb(255, 255, 255);
+}
+.ant-page-header-title-view-title {
+  color: rgb(255, 255, 255);
+}
+
+.kpi-container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.kpi-filter-container {
+  padding: 20px;
+  box-shadow: initial;
+  background-color: #dfdfdf;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  border-radius: 6px;
+}
+.change-data-container {
+  padding: 15px;
+  margin: 0 auto;
+}
+.panel-heading {
+  margin-top: 20px;
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color: #3278b2;
+  color: #f5f5f5;
+  border-color: #4c67af;
+}
+.action-list {
+  margin-top: 50px;
+  list-style: none;
+}
+.heatMapbg {
+  background-image: url('../map.png')
+}
+.action-list-item {
+  padding: 10px;
+  width: 50px;
+  text-align: center;
+  background-color: #ff817f;
+}
+.change-data-container {
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #d5d0d026;
+}
