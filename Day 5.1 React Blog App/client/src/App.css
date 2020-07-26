@@ -1,0 +1,101 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+.logReg{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.login{
+    margin-bottom: 20px;
+}
+
+.register{
+    margin-top: 30px;
+}
+
+input{
+    display: block;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+
+option{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+nav a{
+    padding: 10px;
+    color: black;
+    margin-bottom: 10px;
+    line-height:12px;
+}
+
+nav a:hover{
+    background-color: #989898;
+}
+
+button{
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 7px;
+    border:none;
+}
+
+#results{
+    padding: 10px;
+}
+
+#cartLink{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height:12px;
+}
+
+.form{
+    display: block;
+    border: black;
+}
+
+.linkToPages{
+    color: white;
+}
+.linkToPages:hover{
+    background-color: lightblue;
+    text-decoration: underline;
+}
+
+.table{
+    display: table;
+}
+
+.row{
+    display: table-row;
+}
+
+.accountInfo, .accountValue, .bookInfo, .cart{
+    display: table-cell;
+    padding: 15px 20px;
+}
+
+.cell{
+    display: table-cell;
+    padding: 5px;
+}
