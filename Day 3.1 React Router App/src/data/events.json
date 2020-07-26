@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "meetJS Wrocław",
+    "place": "Monterail",
+    "date": "2016-08-12",
+    "time": "18:00"
+  },
+  {
+    "id": 2,
+    "name": "DevOps Wrocław",
+    "place": "Mleczarnia",
+    "date": "2016-01-14",
+    "time": "19:30"
+  },
+  {
+    "id": 3,
+    "name": "Wrocławska Grupa .NET",
+    "place": "Nietota",
+    "date": "2018-08-20",
+    "time": "18:30"
+  },
+  {
+    "id": 4,
+    "name": "meetJS Wrocław",
+    "place": "Jeszcze nie wybrano",
+    "date": "2018-09-12",
+    "time": "18:00"
+  },
+  {
+    "id": 5,
+    "name": "JUG Wrocław",
+    "place": "Mleczarnia",
+    "date": "2018-09-27",
+    "time": "19:30"
+  },
+  {
+    "id": 6,
+    "name": "Wrocławska Grupa .NET",
+    "place": "Jeszcze nie wybrano",
+    "date": "2019-09-30",
+    "time": "18:30"
+  },
+  {
+    "id": 7,
+    "name": "Grupa fanatyków programowania funkcyjnego",
+    "place": "Scalac",
+    "date": "2021-01-12",
+    "time": "19:30"
+  },
+  {
+    "id": 8,
+    "name": "React User Group",
+    "place": "W jakiejś knajpie - jeszcze nie wybrano",
+    "date": "2021-02-18",
+    "time": "20:00"
+  },
+  {
+    "id": 9,
+    "name": "meetJS Wrocław",
+    "place": "IT Kontrakt",
+    "date": "2022-10-23",
+    "time": "19:00"
+  },
+  {
+    "id": 10,
+    "name": "Scalowcy - grupa wsparcia",
+    "place": "Mleczarnia",
+    "date": "2023-01-01",
+    "time": "21:00"
+  }
+]
