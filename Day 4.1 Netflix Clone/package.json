@@ -1,0 +1,29 @@
+{
+  "name": "react-quiz-app",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "jquery": "^3.4.1",
+    "prop-types": "15.6.1",
+    "react": "16.1.1",
+    "react-dom": "16.1.1",
+    "react-redux": "5.0.7",
+    "redux": "3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
