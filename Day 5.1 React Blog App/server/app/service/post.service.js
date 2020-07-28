@@ -15,12 +15,13 @@ export async function findById(id) {
 }
 export async function create(post, userId) {
      const newPost = await Post.create(post);
-     const id = post._id;
+     const id = newPost._id;
      const user = await User.findById(userId);
      if(! user){
          throw new Error(errorMessages.USER_NOT_FOUND);
      }
      let posts = user.posts || [];
+     console.log(id);
      posts.push(id);
      user.posts = posts;
      await user.save();
