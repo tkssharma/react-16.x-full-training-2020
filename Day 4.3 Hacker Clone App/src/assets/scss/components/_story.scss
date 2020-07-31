@@ -1,0 +1,56 @@
+.story {
+  margin-bottom: 8px;
+  display: flex;
+
+  &-title {
+    color: $text-color;
+  }
+
+  &-body {
+    flex: 1;
+    margin-left: 3px;
+  }
+
+  &-index {
+    color: $text-color-light;
+  }
+
+  &-author a,
+  &-comments a {
+    color: $text-color-light;
+
+    &:hover {
+      text-decoration: 1px solid $text-color-light;
+    }
+  }
+
+  .separator {
+    margin: 0 3px;
+  }
+
+  .no-margin {
+    margin: 0 !important;
+  }
+
+  .back-button {
+    font-size: 10px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &-info {
+    color: $text-color-light;
+    font-size: 10px;
+    display: flex;
+
+    >div {
+      margin-right: 5px;
+
+      span:last-child {
+        margin-left: 3px;
+      }
+    }
+  }
+}

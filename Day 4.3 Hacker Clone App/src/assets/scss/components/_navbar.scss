@@ -1,0 +1,24 @@
+nav.navbar {
+  display: flex;
+  align-items: center;
+  background-color: $main-color;
+  padding: 0.2rem;
+  padding-right: 1rem;
+
+
+  .logo {
+    color: $text-color;
+    text-decoration: none;
+
+    &:hover,
+    &:visited {
+      color: $text-color;
+      text-decoration: none;
+    }
+
+    .logo-img {
+      border: 1px solid white;
+      margin-right: 5px;
+    }
+  }
+}

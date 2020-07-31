@@ -1,0 +1,46 @@
+.post-comments {
+  margin-top: 20px;
+}
+
+.comment {
+  margin-bottom: 10px;
+
+  .deleted {
+    color: $text-deleted;
+  }
+
+  &-date {
+    margin-left: 5px;
+  }
+
+  &-info {
+    color: $text-color-light;
+    margin-bottom: 3px;
+    font-size: 11px;
+
+    .comments-toggle {
+      margin-left: 5px;
+    }
+
+    >a {
+      color: $text-color-light;
+    }
+
+    >span:last-child {
+      margin-left: 5px;
+    }
+  }
+
+  .nested-comments {
+    margin-top: 20px;
+    margin-left: 25px;
+
+    @media(max-width: 992px) {
+      margin-left: 15px;
+    }
+
+    @media(max-width: 768px) {
+      margin-left: 10px;
+    }
+  }
+}
