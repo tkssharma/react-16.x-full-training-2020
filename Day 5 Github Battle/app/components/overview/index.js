@@ -17,6 +17,7 @@ class OverviewPageComponent extends React.Component {
       </ul>
       <Switch>
         <Route exact path="/" component={OverviewTechnologyComponent} />
+        <Route exact path="/overview" component={OverviewTechnologyComponent} />
         <Route path="/overview/:name" component={OverviewTechnologyComponent} />
       </Switch>
     </div>)
