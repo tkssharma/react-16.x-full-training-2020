@@ -5,7 +5,7 @@ import './assets/index.css';
 import Header from './components/partails/header';
 import Hero from './components/partails/hero';
 import TitleList from './components/titleList';
-
+import SerachList from './components/partails/search-resuts';
 class App extends React.Component{
   
    constructor(props) {
@@ -14,16 +14,13 @@ class App extends React.Component{
       data: []
      }
    }
-	performSearch(e) {
-		// stop form from submitting
-		e.preventDefault();
-		// get the value
-		const val = $('.Search input').val();
+	performSearch(val) {
 		const apiKey = '87dfa1c669eea853da609d4968d294be'
 		axios.get('https://api.themoviedb.org/3/search/multi?query=' + val + '&api_key=' + apiKey)
 		  .then((data) => {
 						this.setState({data: data.data});
 			}).catch(err => {
+				console.log(err);
 						console.error(this.props.url, err.toString());
 		  })
 	}
@@ -35,8 +32,9 @@ class App extends React.Component{
 		}
 		return (
 			<div>
-				<Header onSubmit={this.performSearch} />
+				<Header onSubmit={(val) => this.performSearch(val)} />
 				<Hero />
+				<SerachList data={this.state.data}/>
 				<TitleList title="Top TV picks for Jack" url='discover/tv?sort_by=popularity.desc&page=1' />
 				<TitleList title="Trending now" url='discover/movie?sort_by=popularity.desc&page=1' />
 				<TitleList title="Most watched in Horror" url='genre/27/movies?sort_by=popularity.desc&page=1' />
@@ -48,8 +46,3 @@ class App extends React.Component{
 }
 
 export default App;
-
-/*
-
-
-*/

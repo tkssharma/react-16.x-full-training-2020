@@ -3,7 +3,7 @@ import React from 'react';
 const Hero = (props) => {
 
 		return (
-			<div id="hero" className="Hero" style={{backgroundImage: 'url(https://images.alphacoders.com/633/633643.jpg)'}}>
+			<div id="hero" className="Hero" style={{backgroundImage: 'url(https://i1.wp.com/www.socialnews.xyz/wp-content/uploads/2020/02/19/Narcos-Mexico-Season-2-Review.jpeg?quality=90&zoom=1&ssl=1)'}}>
 				<div className="content">
 					<img className="logo" src="http://www.returndates.com/backgrounds/narcos.logo.png" alt="" />
 					<h2>Season 2 now available</h2>
