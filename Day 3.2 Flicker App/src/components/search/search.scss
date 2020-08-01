@@ -1,0 +1,66 @@
+@import './../../variables';
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  input {
+    border: 1px solid $gray-lightest;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  #search-input {
+    width: 350px;
+  }
+
+  input[type="submit"] {
+    background-color: tomato;
+    color: $white;
+    cursor: pointer;
+    border: 0;
+    width: 200px;
+  }
+
+  select {
+    background-color: $white;
+    border-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: .5em 3.5em .5em 1em;
+    margin: 0;
+    box-sizing: border-box;
+    background-image:
+            linear-gradient(45deg, transparent 50%, $gray 50%), linear-gradient(135deg, $gray 50%, transparent 50%),
+            linear-gradient(to right, $gray-light, $gray-light);
+    background-position:
+            calc(100% - 20px) calc(1em + 2px),
+            calc(100% - 15px) calc(1em + 2px),
+            calc(100% - 2.5em) 0.5em;
+    background-size: 5px 5px,
+    5px 5px,
+    1px 1.5em;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    border-color: $gray-lightest;
+
+    &:focus {
+      background-image:
+              linear-gradient(45deg, $gray 50%, transparent 50%),
+              linear-gradient(135deg, transparent 50%, $gray 50%),
+              linear-gradient(to right, $gray-light, $gray-light);
+      background-position:
+              calc(100% - 15px) 1em,
+              calc(100% - 20px) 1em, calc(100% - 2.5em) 0.5em;
+      background-size: 5px 5px,
+      5px 5px,
+      1px 1.5em;
+      background-repeat: no-repeat;
+      outline: 0;
+    }
+  }
+}

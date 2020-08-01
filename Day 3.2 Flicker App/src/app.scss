@@ -1,0 +1,23 @@
+
+//
+// Base
+//
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
