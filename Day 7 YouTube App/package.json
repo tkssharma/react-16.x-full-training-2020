@@ -5,7 +5,7 @@
     "antd": "^3.10.9",
     "youtube-api-search": "0.0.5",
     "autoprefixer": "7.1.2",
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "immutable": "^3.8.2",
     "jest": "20.0.4",
     "lodash": "^4.17.4",
