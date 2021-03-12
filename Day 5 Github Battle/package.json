@@ -11,7 +11,7 @@
     "moment": "^2.19.1",
     "prop-types": "^15.6.0",
     "react": "^16.6.1",
-    "react-dev-utils": "^4.1.0",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.6.1",
     "react-pure-render": "^1.0.2",
     "react-redux": "^5.1.1",
